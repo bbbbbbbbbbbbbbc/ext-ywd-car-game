@@ -1,0 +1,32 @@
+{
+	"name": {
+		"zh-cn": "大果小将",
+		"en": "OLED-12864 screen"
+	},
+	"description": {
+		"zh-cn": "育伟达人工智能机器人扩展库",
+		"en": "I2C OLED-2864 Display Module"
+	},
+	"author": "CaptainLv",
+	"email": "sukey_puff@163.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "ywdcargame",
+	"platform": [
+		"win",
+		"mac",
+		"web"
+	],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": [
+				"mpython",
+				"pico"
+			],
+			"main": "main.ts"
+		}
+	}
+}
